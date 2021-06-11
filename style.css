@@ -1,0 +1,90 @@
+body {
+		font-family: 'Montserrat', sans-serif;
+		background-color: #c7ebf0;
+		
+	}
+
+.banner {
+
+		background-image: url(Images/cakepops2.jpg);
+		background-size: cover;	
+		background-position: center;
+}
+
+
+#boton {
+
+		background-color: #ee4266;
+		color: white;
+		border-radius: 5px;
+		padding: 13px;
+		transition: .3s;
+		text-decoration: none;
+		font-size: 25px;
+}
+
+#boton:hover {
+       
+       background-color: red;
+
+}
+
+#titulo	{
+	display: block;
+	margin:auto ;
+	border-radius: 50%;
+	width: 350px;
+	height: 350px;
+
+}	
+
+#contenido {
+	margin: 10px;
+	text-align: center;
+
+}
+
+.cards	{
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.tarjeta {
+
+	display: grid;
+    	background: white;
+    	margin: 8px;
+    	padding: 15px;
+	height: 350px;
+	width: 300px;
+	border-radius: 4px;
+	box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.7);
+	font-size: 40px;
+}	
+
+.foto {
+
+	height: 250px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+#mapa {
+
+	background-color: white;
+	border: solid	black 4px;
+	padding: 15px;
+	margin: auto;
+}
+
+.subtitulo {
+	font-family: 'Great Vibes', cursive;
+	font-size: 45px;
+	font-weight: lighter;
+	
+}	
+
+
